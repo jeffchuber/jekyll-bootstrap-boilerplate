@@ -26,7 +26,7 @@ A quick and easy way to prototype ideas using [Twitter Bootstrap](http://getboot
 
 1. `_layouts/default.html` is where you edit the base styles of your app. This is where you can put your header and footer that are standard across all page. This is also where you can and should include javascript, fonts, CSS, etc that you want to add to the page. (basically anything in the `<head>` element) `{{content}}` is where sub pages will put their content. For example for your landing page, the contents of `index.html` will be placed in the default layout and replace `{{content}}`
 2. `index.html` is your landing page
-3. `_posts/2013-10-10-example.html` is your first page. You can access it by going to [localhost:4000/example](localhost:4000/example). To create a new page, use the same naming as you see for the example page. So if you about a page called `about`, create `2013-10-10-about.html`. Now you can go to `[localhost:4000/about](localhost:4000/about)` or link to it from another view by typing `<a href="/about">About</a>` Make sure to include the block at the top that you see in the example.
+3. `_posts/2013-10-10-example.html` is your first page. You can access it by going to [localhost:4000/example](localhost:4000/example). To create a new page, use the same naming as you see for the example page. So if you about a page called `about`, create `2013-10-10-about.html`. Now you can go to [localhost:4000/about](localhost:4000/about) or link to it from another view by typing `<a href="/about">About</a>` Make sure to include the block at the top that you see in the example.
 
 ```ruby
 ---
